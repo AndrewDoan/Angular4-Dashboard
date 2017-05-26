@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
   <navigation></navigation>
   <header></header>
-  <dashboard></dashboard>
+  <router-outlet></router-outlet>
   `,
 })
 export class AppComponent  {}
