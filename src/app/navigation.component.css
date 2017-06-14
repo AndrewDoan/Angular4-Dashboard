@@ -25,18 +25,37 @@
 	text-decoration: none;
 }
 
+.sidebar-wrapper{
+	height: 100%;
+}
 
-p{
+.sidebar-wrapper p{
 	display: inline-block;
 }
 
-i{
+.sidebar-wrapper i{
 	top: 7px;
 	margin-right: 10px;
 	position: relative;
 }
 
-a{
+.sidebar-wrapper a{
 	width: 80%;
 	margin: auto;
+}
+
+.social-media{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.social-media li{
+	display: inline-block;
+}
+
+.social-media-wrapper {
+	text-align: center;
+	vertical-align: bottom;
+	margin-top: 90%;
 }
